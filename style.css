@@ -1,0 +1,109 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  perspective: 1000px; /* Add perspective to the body */
+}
+
+input {
+  font-size: 1.1em;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add inner shadow */
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+label {
+  font-size: 1.1em;
+}
+
+#title {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 1.75em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+#blurb {
+  background-color: rgba(255, 255, 255, 0.386);
+  text-align: center;
+  margin: 1em auto;
+  width: 500px;
+  padding: 0.5em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+#array-visual {
+  margin: 1em;
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  width: 100%;
+  padding: 1em;
+  color: black;
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+button {
+  margin-top: 1em;
+  background-color: rgb(8, 74, 3);
+  font-size: 1.1em;
+  color: white;
+  padding: 0.25em 0.5em;
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+rect:hover,
+circle:hover,
+text.circle:hover,
+text.rect:hover {
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transform: perspective(500px) rotateX(10deg); /* 3D effect */
+}
