@@ -63,6 +63,9 @@ You can customize the appearance of the visualization by modifying the CSS style
 
 ## License
 
+![image](https://github.com/user-attachments/assets/8ebcad80-dc3f-4966-a1c2-64512063e877)
+
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ```
